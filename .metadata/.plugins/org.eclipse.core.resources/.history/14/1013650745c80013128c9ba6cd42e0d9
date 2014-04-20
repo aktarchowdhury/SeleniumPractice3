@@ -1,0 +1,23 @@
+package com.aktar.sele4;
+
+import com.thoughtworks.selenium.DefaultSelenium;
+
+public class HomeWork4 {
+
+	public static void main(String[] args) {
+		DefaultSelenium obj=new DefaultSelenium("localhost",4444,"firefox","https://www.facebook.com/");
+		obj.start();
+		obj.open("/");
+		obj.setSpeed("4000");
+		obj.windowMaximize();
+		obj.type("email", "aktarchowdhury7@gmail.com");
+		obj.type("pass", "aa786786");
+		obj.click("u_0_n");
+		obj.close();
+		
+		}
+		
+
+	}
+
+

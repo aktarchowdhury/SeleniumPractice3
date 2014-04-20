@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HomeWork3" project="SeleniumHomeWork1" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.aktar.sele1.HomeWork3" time="47.842">
+    <testcase name="Registration" classname="com.aktar.sele1.HomeWork3" time="47.842"/>
+  </testsuite>
+</testrun>
