@@ -1,0 +1,10 @@
+package com.infix.tech;
+
+import org.junit.Before;
+
+public class SeleniumRC {
+	@Before
+public void BrowserOpen(){
+	
+}
+}
