@@ -1,0 +1,10 @@
+package com.aktar.web;
+
+import org.junit.Test;
+
+public class TestClass1 extends OpeningClass {
+@Test
+public void AddCard(){
+
+}
+}

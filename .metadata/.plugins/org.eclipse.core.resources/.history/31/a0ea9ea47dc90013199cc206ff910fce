@@ -1,0 +1,19 @@
+package com.aktar.web;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+
+public class TestClass extends OpeningClass {
+@Test
+public void HomePageTest(){
+	driver.findElement(By.id("signIn")).click();
+	driver.findElement(By.id("Account_UserName")).sendKeys("aktar");
+	driver.findElement(By.id("Account_PassWord")).sendKeys("1234");
+	driver.findElement(By.id("remember_me_check_box")).getLocation();
+	driver.findElement(By.id("<button type=submit")).click();
+	
+	
+	
+	
+}
+}

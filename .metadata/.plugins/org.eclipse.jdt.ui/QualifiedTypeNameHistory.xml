@@ -6,13 +6,17 @@
 <fullyQualifiedTypeName name="com.aktar.sele5.HomeWork5"/>
 <fullyQualifiedTypeName name="com.thoughtworks.selenium.DefaultSelenium"/>
 <fullyQualifiedTypeName name="com.infix.tech.SeleniumBase"/>
-<fullyQualifiedTypeName name="org.junit.After"/>
 <fullyQualifiedTypeName name="com.infix.test.WebDriverTest"/>
 <fullyQualifiedTypeName name="com.infix.test.WebDriuverBase"/>
+<fullyQualifiedTypeName name="com.aktar.web.WebBase"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.server.browserlaunchers.Firefox2Launcher"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
-<fullyQualifiedTypeName name="com.aktar.web.WebBase"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.After"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By.ByPartialLinkText"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="com.aktar.web.TestClass"/>
+<fullyQualifiedTypeName name="com.aktar.web.OpeningClass"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
 </qualifiedTypeNameHistroy>

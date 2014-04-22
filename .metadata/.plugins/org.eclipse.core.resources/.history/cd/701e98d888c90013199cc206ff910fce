@@ -1,0 +1,19 @@
+package com.aktar.web;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+
+public class TestClass extends OpeningClass {
+@Test
+public void HomePageTest(){
+driver.findElement(By.id("#Address_FirstName")).sendKeys("aktar");
+	
+
+	
+	
+	
+	
+	
+	
+}
+}

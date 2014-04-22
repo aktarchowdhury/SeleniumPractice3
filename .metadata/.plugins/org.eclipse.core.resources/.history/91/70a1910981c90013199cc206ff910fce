@@ -1,0 +1,16 @@
+package com.aktar.web;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+
+public class TestClass extends OpeningClass {
+@Test
+public void HomePageTest(){
+	driver.findElement(By.id("signIn")).click();
+	driver.findElement(By.linkText("Create An Account")).getLocation();
+	
+	
+	
+	
+}
+}

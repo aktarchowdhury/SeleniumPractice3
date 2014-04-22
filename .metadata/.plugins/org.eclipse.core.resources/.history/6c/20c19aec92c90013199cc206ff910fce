@@ -1,0 +1,27 @@
+package com.aktar.web;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+
+public class TestClass extends OpeningClass {
+@Test
+public void HomePageTest(){
+driver.findElement(By.id("Address_FirstName")).sendKeys("aktar");
+driver.findElement(By.id("Address_LastName")).sendKeys("chowdhury");
+driver.findElement(By.id("Account_NewEmailAddress")).sendKeys("aktarchowdhury12@gmail.com");
+driver.findElement(By.id("Account_NewPassword")).sendKeys("Aa3456");
+driver.findElement(By.id("Account_NewPasswordConfirm")).sendKeys("Aa3456");
+driver.findElement(By.id("sbux_send_me_email")).getLocation();
+driver.findElement(By.id("Address_PostalCode")).sendKeys("11223");
+driver.findElement(By.linkText("Create An Account")).click();
+
+	
+
+	
+	
+	
+	
+	
+	
+}
+}

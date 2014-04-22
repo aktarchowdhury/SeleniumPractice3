@@ -1,0 +1,12 @@
+package com.aktar.web;
+
+import org.junit.Test;
+
+public class Test3 extends OpeningClass {
+	@Test
+	public void ConnectFaceBook(){
+		driver.get("https://www.facebook.com/starbucks/");
+		
+	}
+
+}

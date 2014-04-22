@@ -1,0 +1,12 @@
+package com.aktar.web;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+
+public class Test4 extends OpeningClass{
+	@Test
+	public void Photos(){
+		driver.findElement(By.id("li._45hc:nth-child(3) > a:nth-child(1)")).click();
+	}
+
+}

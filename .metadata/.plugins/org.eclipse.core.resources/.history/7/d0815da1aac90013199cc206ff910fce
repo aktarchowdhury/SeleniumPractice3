@@ -1,0 +1,9 @@
+package com.aktar.web;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+
+public class TestClass1 extends OpeningClass {
+
+}
+
