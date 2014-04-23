@@ -1,0 +1,18 @@
+package com.aktar.selen;
+
+import org.junit.Test;
+
+public class TestClass1 extends BaseClass1 {
+@Test
+public void TestStarts(){
+obj.click("banking");
+obj.click("creditcards");
+obj.click("lending");
+obj.click("investing");
+obj.click("business");
+obj.click("rewards");
+obj.click("services");
+obj.click("citigold");
+
+}
+}

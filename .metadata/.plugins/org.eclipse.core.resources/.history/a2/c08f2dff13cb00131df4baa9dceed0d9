@@ -1,0 +1,18 @@
+package com.aktar.selen;
+
+import org.junit.Test;
+
+public class TestClass3 extends BaseClass1 {
+	@Test
+	public void TestStarts3(){
+		obj.click("citigold");
+		obj.click("mm_citigold_offer");
+		obj.click("services");
+		obj.click("mm_services_offer");
+		obj.click("creditcards");
+		obj.clickAt("mm_creditcards_offer", "view_all_credit_cards");
+		obj.click("all_cards");
+		
+	}
+
+}

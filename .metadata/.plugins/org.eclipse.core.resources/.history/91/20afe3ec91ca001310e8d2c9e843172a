@@ -1,0 +1,25 @@
+package com.aktar.selen;
+
+import org.junit.After;
+import org.junit.Before;
+
+import com.thoughtworks.selenium.DefaultSelenium;
+
+public class BaseClass1{
+DefaultSelenium obj=new DefaultSelenium("localhost",4444,"firefox","https://online.citibank.com/US/JPS/portal/Index.do");
+@Before
+public void BrowserOpens(){
+	obj.start();
+	obj.open("/");
+	obj.windowMaximize();
+	obj.setSpeed("4000");
+}
+@After
+public void CloseBrowser(){
+	//obj.close();
+	//obj.stop();
+}
+}	
+
+
+

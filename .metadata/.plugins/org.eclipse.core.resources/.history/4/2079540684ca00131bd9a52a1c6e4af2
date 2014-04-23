@@ -1,0 +1,13 @@
+package com.aktar.selen;
+
+import org.junit.Test;
+
+public class TestClass2 extends BaseClass1{
+	@Test
+	public void TestStarts2(){
+	obj.clickAt("banking","Checking Accounts");
+	obj.clickAt("#appNav", "locationNav AZ");
+	obj.click("cmlink_GoBtnLocForm.appNavNext");
+	}
+
+}
